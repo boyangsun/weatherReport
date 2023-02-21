@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+}
+
+button{
+    background-color:lightcoral;
+    border-radius: 5px;
+}
+
+.forms{
+    visibility: hidden;
+}
+
+#cityform{
+    position: absolute;
+    left: 40%;
+    top: 20%;   
+}
+
+#llform{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    
+}
+
+#zipform{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    
+}
+
+#result{
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    top: 50%;
+}
+
+.submit{
+    float: right;
+    margin-top: 5px;
+    background-color:lightcoral;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+#choices{
+    width: 100%;
+}
+
+#choices button{
+    width: 30%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    float: left;
+}
+
+#suggestion{
+    visibility: hidden;
+}
+

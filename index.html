@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Query</title>
+</head>
+<body>
+    <h1>Please choose one of the three ways:</h1>
+    <div id="choices">
+        <button type="button" id="citybutton">Search by City Name</button>
+        <button type="button" id="llbutton">Search by Latitude and Longitude</button>
+        <button type="button" id="zipbutton">Search by Zip Code</button>
+    </div>
+    
+
+    <form id="cityform" class="forms">
+        <label for="city">City:</label><br>
+        <input type="text" id= "city"><br>
+        <label for="state">State:</label><br>
+        <input type="text" id= "state"><br>
+        <label for="country">Country:</label><br>
+        <input type="text" id= "countryn"><br>
+        
+        <input type="submit" value="Submit" class="submit">
+    </form>
+
+    <form id="llform" class="forms">
+        <label for="latitude">Latitude:</label><br>
+        <input type="text" id= "latitude"><br>
+        <label for="longitude">Longitude :</label><br>
+        <input type="text" id= "longitude"><br>
+        
+        <input type="submit" value="Submit" class="submit">
+    </form>
+
+    <form id="zipform" class="forms">
+        <label for="country">Country:</label><br>
+        <input type="text" id= "country"><br>
+        <label for="code">Zip Code:</label><br>
+        <input type="text" id= "code"><br>
+        
+        <input type="submit" value="Submit" class="submit">
+    </form>
+
+
+
+    <div id="result">
+        <h2>The weather is: </h2><br>
+        <p id="weather"></p>
+        <button type="button" id="suggestion">Show Suggestion</button>
+        <p id="suggest"></p>
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
